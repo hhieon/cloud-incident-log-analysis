@@ -18,14 +18,31 @@ CloudTrail에 기록되는 관리 이벤트(API Call)를 기반으로
 해당 로그가 침해 행위의 증거로 활용 가능한지를 실험적으로 검증한다.
 
 ## 3. 프로젝트 범위
-## 4. 전체 구조 및 역할
-## 5. 실험 시나리오 개요
-## 6. 로그 및 증거물 관리 방식
-## 7. 탐지 로직 개요
-## 8. 재현 방법
-## 9. 결과 요약
-## 10. 한계 및 향후 과제
+## 4. 전체 구조
 
-## 11. 참고 문헌
+## 5. 프로젝트 구성 및 역할
+### ta3h1. Cloud Security Engineer
+- AWS 환경 구성
+- CloudTrail 설정
+- 로그 수집 파이프라인 구축
+
+### hyehyej. Detection Engineer
+- CloudTrail 로그 구조 분석
+- 이벤트 정규화
+- 탐지 룰 구현
+
+### hhieon. Cloud Attack & System Analyst
+- 공격 시나리오 설계
+- 침해 흐름 모델링
+- 탐지 기준 정의
+
+## 6. 실험 시나리오 개요
+## 7. 로그 및 증거물 관리 방식
+## 8. 탐지 로직 개요
+## 9. 재현 방법
+## 10. 결과 요약
+## 11. 한계 및 향후 과제
+
+## 12. 참고 문헌
 Investigating Advanced Persistent Threat Tactics in Cloud Environments: 
 A Forensic Study of AWS CloudTrail Log Data
