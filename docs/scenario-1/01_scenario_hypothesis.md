@@ -36,6 +36,25 @@
 
 ## 3. 단일 이벤트 탐지의 오탐 가능성 분석
 
+### 오탐 가능성 평가 기준
+
+본 문서에서 오탐 가능성은 다음 기준을 기반으로 판단하였다:
+
+- **정상 빈도**
+    
+    정상 운영 환경에서 해당 이벤트가 얼마나 자주 발생하는가
+    
+- **정상 시나리오 다양성**
+    
+    해당 행위가 정상적인 상황에서도 다양한 이유로 발생할 수 있는가
+    
+- **행위의 본질적 위험도**
+    
+    해당 행위 자체가 보안 관점에서 구조적으로 위험한가
+    
+
+위 세 요소를 종합하여 Low / Medium / High 수준으로 평가하였다.
+
 ### 3.1 ConsoleLogin (Root)
 
 - 탐지 조건: userIdentity.type = Root AND eventName = ConsoleLogin AND responseElements.ConsoleLogin = Success
