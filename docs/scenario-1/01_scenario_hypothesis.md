@@ -55,6 +55,8 @@
 
 위 세 요소를 종합하여 Low / Medium / High 수준으로 평가하였다.
 
+---
+
 ### 3.1 ConsoleLogin (Root)
 
 - 탐지 조건: userIdentity.type = Root AND eventName = ConsoleLogin AND responseElements.ConsoleLogin = Success
